@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "postcss-loader": "^7.2.4",
+    "vant": "^2.12.54"
+  }
+}

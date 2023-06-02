@@ -1,0 +1,164 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+
+			}
+		},
+		{
+			"path": "pages/zhuceinfo/zhuceinfo",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},{
+			"path": "pages/newsinfo/newsinfo",
+			"style": {
+				"navigationBarTitleText": "详情页面"
+			}
+		}
+		,{
+			"path": "pages/Home/FirstHome/FirstHome",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "学情"
+			}
+		},
+		{
+			"path": "pages/mytask/index",
+			"style": {
+				"navigationBarTitleText": "任务"
+			}
+		},
+		{
+			"path": "pages/myinfo/myinfo",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/effect/effect",
+			"style": {
+				"navigationBarTitleText": "成效分析"
+			}
+		},
+		{
+			"path": "pages/teacher/teacher",
+			"style": {
+				"navigationBarTitleText": "教师端"
+			}
+		},
+
+		{
+			"path": "pages/teacher/taskmager/taskmager",
+			"style": {
+				"navigationBarTitleText": "教师任务管理"
+			}
+		},
+		{
+			"path": "pages/teacher/effect/effect",
+			"style": {
+				"navigationBarTitleText": "成效管理"
+			}
+		},
+		{
+			"path": "pages/teacher/taskmager/uploadResult",
+			"style": {
+				"navigationBarTitleText": "成效管理"
+			}
+		},
+		{
+			"path": "pages/teacher/effect/effermanager",
+			"style": {
+				"navigationBarTitleText": "成效管理"
+			}
+		}, {
+			"path": "pages/friendsCircle/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/friendsCircle/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/friendsCircle/msglist",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/friendsCircle/person",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/friendsCircle/sendMsg",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/Home/FirstHome/FirstHome",
+				"iconPath": "static/icon/首页.png",
+				"selectedIconPath": "static/icon/首页 (1).png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/study/study",
+				"iconPath": "static/icon/study.png",
+				"selectedIconPath": "static/icon/study.png",
+				"text": "学情"
+			},
+			{
+				"pagePath": "pages/mytask/index",
+				"iconPath": "static/icon/task.png",
+				"selectedIconPath": "static/icon/task.png",
+				"text": "任务"
+			},
+			{
+				"pagePath": "pages/effect/effect",
+				"iconPath": "static/icon/effect.png",
+				"selectedIconPath": "static/icon/effect.png",
+				"text": "成效"
+			},
+			{
+				"pagePath": "pages/myinfo/myinfo",
+				"iconPath": "static/icon/myinfo.png",
+				"selectedIconPath": "static/icon/myinfo.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
